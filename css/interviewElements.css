@@ -1,0 +1,107 @@
+  .dailyTime{
+    float:left;
+    width:180;
+  }
+  #timeline{
+    float: left;
+    width:180;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+  }
+
+  #passengers{
+    float: left;
+    width:180;
+  }
+
+   #distance{
+    float: left;
+    width:180;
+  }
+
+   #time{
+    float: left;
+    width:180;
+  }
+
+
+
+
+  .dailyTimeAgain{
+    float: left;
+    width:200;
+    clear:left;
+  }
+
+  h4{
+    padding-top:100px;
+    padding-left: 20px;
+  }
+ 
+  h5{
+    font: 18px Open Sans, sans-serif;
+    float: left;
+    padding-top:300;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #emissions{
+  	float:left;
+  	width:200;
+    padding-top: 100px;
+    padding-bottom:20px;
+    padding-left: 10px;
+  }
+
+  .legendLabel{ 
+  	font: 9px Open Sans, sans-serif;
+
+  }
+
+
+  #outsideEmissions{
+  	float:left;
+  	width:200;
+    padding-top: 100px;
+    padding-bottom:20px;
+    padding-left: 10px;
+  }
+
+  #totalEmissions{
+  	float:left;
+  	width:200;
+    padding-top: 100px;
+    padding-bottom:20px;
+    padding-left: 10px;
+  }
+
+
+ #weeklyCarbonCost{
+ 	  padding-top:100px;
+    float: left;
+    width:200;
+    clear:left;
+  }
+
+  #weeklyTravelTime{
+  	padding-top: 60px;
+    padding-left: 20px;
+    float: left;
+    width:200;
+  }
+
+  #weeklyTravelDistance{
+    padding-top: 60px;
+    padding-left: 20px;
+    float: left;
+    width:200;
+  }  
+
+  #weeklyTravelEmissions{
+    padding-top: 60px;
+    padding-left: 20px;
+    float: left;
+    width:200;
+  }

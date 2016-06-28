@@ -1,0 +1,26 @@
+/*Transitions graph styling*/
+
+  .transition.axis path,
+
+  .transition.axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+  }
+
+  .transition.y.axis path {
+      display: none;
+  }
+  .transition.button{
+    display:inline;
+    padding-left: 20px;
+  }
+
+  .label{
+    font: 12px Open Sans, sans-serif;
+  }
+
+  .bigLabel{
+    font: 18px Open Sans, sans-serif;
+
+  }

@@ -1,0 +1,121 @@
+[{
+	"data": [{
+		"count": "00",
+		"day": "Friday"
+	}, {
+		"count": "00",
+		"day": "Saturday"
+	}, {
+		"count": "8.70680",
+		"day": "Sunday"
+	}, {
+		"count": "00",
+		"day": "Monday"
+	}, {
+		"count": "00",
+		"day": "Tuesday"
+	}, {
+		"count": "8.69960",
+		"day": "Wednesday"
+	}, {
+		"count": "2.39420",
+		"day": "Thursday"
+	}],
+	"name": "Car"
+}, {
+	"data": [{
+		"count": "0",
+		"day": "Friday"
+	}, {
+		"count": "0",
+		"day": "Saturday"
+	}, {
+		"count": "0",
+		"day": "Sunday"
+	}, {
+		"count": "0",
+		"day": "Monday"
+	}, {
+		"count": "0",
+		"day": "Tuesday"
+	}, {
+		"count": "0",
+		"day": "Wednesday"
+	}, {
+		"count": "0.16061",
+		"day": "Thursday"
+	}],
+	"name": "Bus"
+}, {
+	"data": [{
+		"count": "0",
+		"day": "Friday"
+	}, {
+		"count": "0",
+		"day": "Saturday"
+	}, {
+		"count": "0",
+		"day": "Sunday"
+	}, {
+		"count": "0",
+		"day": "Monday"
+	}, {
+		"count": "0.5005",
+		"day": "Tuesday"
+	}, {
+		"count": "0",
+		"day": "Wednesday"
+	}, {
+		"count": "0.23305",
+		"day": "Thursday"
+	}],
+	"name": "Train"
+}, {
+	"data": [{
+		"count": "0.066786",
+		"day": "Friday"
+	}, {
+		"count": "0",
+		"day": "Saturday"
+	}, {
+		"count": "0",
+		"day": "Sunday"
+	}, {
+		"count": "0.036608",
+		"day": "Monday"
+	}, {
+		"count": "0.036197",
+		"day": "Tuesday"
+	}, {
+		"count": "0.037055",
+		"day": "Wednesday"
+	}, {
+		"count": "0.043343",
+		"day": "Thursday"
+	}],
+	"name": "Bike"
+}, {
+	"data": [{
+		"count": "0",
+		"day": "Friday"
+	}, {
+		"count": "0",
+		"day": "Saturday"
+	}, {
+		"count": "0.0051919",
+		"day": "Sunday"
+	}, {
+		"count": "0",
+		"day": "Monday"
+	}, {
+		"count": "0.14454",
+		"day": "Tuesday"
+	}, {
+		"count": "0",
+		"day": "Wednesday"
+	}, {
+		"count": "0.0035003",
+		"day": "Thursday"
+	}],
+	"name": "Walk"
+}]
