@@ -16,7 +16,7 @@ $(document).ready(function() {
       width: 180
     },
 
-    width = 260,
+    width = 180,
     height = 265;
 
     var activityToColor = {},
@@ -36,7 +36,8 @@ $(document).ready(function() {
         activityToAbbrev[activity[i]] = abbrev[i];
     };
 
-    
+    var legend_text = ["Work","Work-Related Business","Education","Pick Up/Drop Off"]
+    var legend_second_text = ["Personal Errand/Task","Meal/Eating Break","Shopping","Social"]
 
     d3.json("data/outsideEmissions.json", function(error, dataset) {  
 
@@ -182,24 +183,60 @@ $(document).ready(function() {
           .attr('y', height+45)
           .text('Out-of-home Activities Emissions');
 
+//Legend
+    for (i = 0; i < legend_text.length; i++) {
 
-      //Legend
-      series.forEach(function (s, i) {
           svg.append('text')
               .attr('class', 'legendLabel')
               .attr('fill', 'black')
-              .attr('x', i * 36)
-              .attr('y', height+110)
-              .text(activityToAbbrev[s]);
+              .attr('x', i * 40)
+              .attr('y', height+60)
+              .text(activityToAbbrev[legend_text[i]]);
           svg.append('rect')
-              .attr('fill', activityToColor[s])
+              .attr('fill', activityToColor[legend_text[i]])
               .attr('width', 25)
               .attr('height', 25)
-              .attr('x', i * 36)
+              .attr('x', i * 38)
+              .attr('y', height+65);
+              
+          
+  };
+
+//Legend second row
+    for (i = 0; i < legend_second_text.length; i++) {
+
+          svg.append('text')
+              .attr('class', 'legendLabel')
+              .attr('fill', 'black')
+              .attr('x', i * 40)
+              .attr('y', height+110)
+              .text(activityToAbbrev[legend_second_text[i]]);
+          svg.append('rect')
+              .attr('fill', activityToColor[legend_second_text[i]])
+              .attr('width', 25)
+              .attr('height', 25)
+              .attr('x', i * 38)
               .attr('y', height+115);
               
           
-      });
+  };  
+      // //Legend
+      // series.forEach(function (s, i) {
+      //     svg.append('text')
+      //         .attr('class', 'legendLabel')
+      //         .attr('fill', 'black')
+      //         .attr('x', i * 36)
+      //         .attr('y', height+110)
+      //         .text(activityToAbbrev[s]);
+      //     svg.append('rect')
+      //         .attr('fill', activityToColor[s])
+      //         .attr('width', 25)
+      //         .attr('height', 25)
+      //         .attr('x', i * 36)
+      //         .attr('y', height+115);
+              
+          
+      // });
   });
 });
 

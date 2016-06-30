@@ -16,7 +16,7 @@ $(document).ready(function() {
       width: 180
     },
 
-    width = 260,
+    width = 180,
     height = 265;
 
     var activityToColor = {},
