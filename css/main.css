@@ -47,4 +47,16 @@
     font: 18px Open Sans, sans-serif;
   }
 
-
+  h4 {
+      font: 18px Open Sans, sans-serif;
+      padding-left: 20px;
+      padding-top: 80px;
+  }
+ 
+  h5{
+    font: 18px Open Sans, sans-serif;
+    float: left;
+    padding-top:300;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
