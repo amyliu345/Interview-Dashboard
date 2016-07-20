@@ -37,6 +37,7 @@ $(document).ready(function() {
 
   d3.csv("data/weeklyCarbonCost.csv", function(error, data) {
     if (error) throw error;
+    console.log(data);
 
     color.domain(d3.keys(data[0]).filter(function(key) { return key !== "State"; }));
 
